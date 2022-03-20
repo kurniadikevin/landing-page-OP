@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 .header{
@@ -44,7 +45,8 @@ body{
      .text1-1{
        width: 500px;  
     font-size: 48px;
-    font-weight: bold; /* should be extra bold */
+    font-weight: 900; /* should be extra bold */
+    padding-bottom: 10px;
         }
      .text1-2{
          font-size: 18px;
@@ -59,7 +61,7 @@ body{
     justify-content: center;
     text-align: center;
     flex-shrink: 0;
-    padding: 30px 60px;
+    padding: 30px 90px;
     gap: 20px;
  }
 
@@ -68,8 +70,112 @@ body{
     background-color: #3882f6;
     padding: 10px 20px;
     color: white;
-    border-radius: 25px;
+    border-radius: 10px;
     border: none;
+ }
     
+ .row2{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
  }
 
+   .r2-tittle{
+       padding-top: 100px;
+       padding-bottom: 66px;
+       font-size: 36px;
+       font-weight: 900;
+   }
+
+  .content{
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      gap: 20px;
+      padding-bottom: 100px;
+      
+  }
+      .box-text{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+      }
+
+       .box{
+           padding: 80px 80px;
+           border: 5px solid #3882f6;
+           border-radius: 25px;
+           margin-bottom: 10px;
+        }
+        .caption{
+        text-align: center;
+        font-weight:700;
+        width: 160px;
+        font-size: 18px;
+        }
+  
+ .row3{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     background-color: #e5e7eb;
+
+ }
+    .r3-text1{
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 100;
+        width: 600px;
+        padding: 0px;
+        
+    }
+    .r3-text2{
+        text-align: right;
+        width: 600px;
+        margin-top: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+.row4{
+    display: flex;
+    flex-shrink: 0;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 150px;
+} 
+   .r4-text{
+       flex-shrink: 0;
+   }
+
+        .r4-text1{
+       font-size: 20px;
+       font-weight: bold;
+
+   } 
+
+   .sign-up2{
+       flex-shrink: 0;
+       width: 100px;
+       color: white;
+       background-color: #3882f6;
+       border: 2px solid white; 
+       border-radius: 10px;
+   }
+
+   .footer{
+       background-color: #1F2937;
+       color: white;
+       height: 75px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+   }
